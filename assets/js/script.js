@@ -49,4 +49,11 @@ $("#searchedCityHistory").append(searchedCity);
 localStorage.setItem("city", JSON.stringify(searchedCityHistoryList));
 console.log(searchedCityHistoryList);
 });
+
+// WHEN I click on a city in the search history
+// THEN I am again presented with current and future conditions for that city
+$(document).on("click", ".list-group-item", function() {
+var CityList = $(this).text();
+currentCondition(CityList);
+});
     
