@@ -1,5 +1,5 @@
 var apiKey = "23e942d86d90cbac1cd7f900775196d1";
-var today = moment().format('L');
+var today = moment().format('D/M/Y');
 var searchedCityHistoryList = [];
 
 // function for current condition
