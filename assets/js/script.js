@@ -31,3 +31,22 @@ ${cityWeather.name} ${today} <img src="${iconURL}" alt="${cityWeather.weather[0]
 $("#cityDetails").append(currentCity);
 });
 }
+
+// add on click event listener 
+$("#search-Button").on("click", function(event) {
+event.preventDefault();
+    
+var city = $("#enterACity").val().trim();
+currentCondition(city);
+if (!searchedCityHistoryList.includes(city)) {
+searchedCityHistoryList.push(city);
+var searchedCity = $(`
+<li class="list-group-item">${city}</li>
+`);
+$("#searchedCityHistory").append(searchedCity);
+};
+        
+localStorage.setItem("city", JSON.stringify(searchedCityHistoryList));
+console.log(searchedCityHistoryList);
+});
+    
