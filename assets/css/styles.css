@@ -1,0 +1,42 @@
+#weather {
+    display: none;
+}
+
+#cityDetails,
+li {
+    color: #4D4F53!important;
+}
+
+#searchResults,
+#cityDetails,
+.card {
+    background-color: #7F00FF!important;
+}
+
+#searchResults {
+    height: 100vh;
+}
+
+#searchedCityHistory li {
+    background-color: #97A6A4;
+    color: #f8f8ff!important;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2,h3 {
+    color: #f8f8ff;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000000;
+}
+
+
