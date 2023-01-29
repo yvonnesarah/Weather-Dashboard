@@ -23,8 +23,8 @@ var currentCity = $(`
 <h2 id="CurrentCity">
 ${cityWeather.name} ${today} <img src="${iconURL}" alt="${cityWeather.weather[0].description}" />
 </h2>
-<p>Temperature: ${cityWeather.main.temp} °F</p>
-<p>Wind: ${cityWeather.wind.speed} MPH</p>
+<p>Temperature: ${cityWeather.main.temp} °C</p>
+<p>Wind: ${cityWeather.wind.speed} KPH</p>
  <p>Humidity: ${cityWeather.main.humidity}\%</p>
 `);
 
