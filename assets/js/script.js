@@ -32,6 +32,51 @@ $("#cityDetails").append(currentCity);
 });
 }
 
+// function for 5 days condition
+function fiveDaysCondition(lat, lon) {
+
+    var futureURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+
+    $.ajax({
+        url: futureURL,
+        method: "GET"
+    }).then(function(fiveDaysCondition) {
+        console.log(fiveDaysCondition);
+        $("#CityfiveDays").empty();
+        
+        for (let i = 1; i < 6; i++) {
+            var cityInfo = {
+                date: fiveDaysCondition.daily[i].dt,
+                icon: fiveDaysCondition.daily[i].weather[0].icon,
+                temp: fiveDaysCondition.daily[i].temp.day,
+                humidity: fiveDaysCondition.daily[i].humidity
+            };
+
+            var currDate = moment.unix(cityInfo.date).format("MM/DD/YYYY");
+            var iconURL = `<img src="https://openweathermap.org/img/w/${cityInfo.icon}.png" alt="${futureResponse.daily[i].weather[0].main}" />`;
+
+            // displays the date
+            // an icon representation of weather conditions
+            // the temperature
+            // the humidity
+            var futureCard = $(`
+                <div class="pl-3">
+                    <div class="card pl-3 pt-3 mb-3 bg-primary text-light" style="width: 12rem;>
+                        <div class="card-body">
+                            <h5>${currDate}</h5>
+                            <p>${iconURL}</p>
+                            <p>Temp: ${cityInfo.temp} °F</p>
+                            <p>Humidity: ${cityInfo.humidity}\%</p>
+                        </div>
+                    </div>
+                <div>
+            `);
+
+            $("#CityfiveDays").append(futureCard);
+        }
+    }); 
+}
+
 // add on click event listener 
 $("#search-Button").on("click", function(event) {
 event.preventDefault();
@@ -56,4 +101,3 @@ $(document).on("click", ".list-group-item", function() {
 var CityList = $(this).text();
 currentCondition(CityList);
 });
-    
