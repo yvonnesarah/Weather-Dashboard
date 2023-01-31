@@ -13,6 +13,12 @@ li {
     background-color: #7F00FF!important;
 }
 
+#CityfiveDays .card {
+    border: 3px solid white!important;
+    background-color: #0000FF!important;
+}
+
+
 #searchResults {
     height: 100vh;
 }
