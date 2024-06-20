@@ -1,7 +1,10 @@
 # Weather-Dashboard
 
-# Description
+## Description
 This is a weather dashboard with form inputs that will run in the browser and feature dynamically updated HTML and CSS. It allows the user to search to view weather outlook for multiple cities so travelers can plan a trip accordingly. [OpenWeather API](https://openweathermap.org/api) is used to retrieve weather data for cities. And localStorage is used to store persistent data.
+
+## Prerequisites
+N/A
 
 # Criteria
 * Create a weather dashboard with form inputs.
@@ -24,6 +27,7 @@ This is a weather dashboard with form inputs that will run in the browser and fe
 
 * When a user clicks on a city in the search history they are again presented with current and future conditions for that city.
 
+## Technologies Used
  Built with:
 * HTML
 * CSS
@@ -33,6 +37,12 @@ This is a weather dashboard with form inputs that will run in the browser and fe
 * Server-Side API - OpenWeather API
 * Local Storage
 * (Bootstrap)
+
+## Installation
+N/A
+
+## Usage
+N/A
 
 ## Project Link
 Application can be viewed here: 
@@ -51,4 +61,4 @@ Example City searched
 N/A
 
 ## Licence
-N/A
+Please refer to the LICENSE in the repo.
