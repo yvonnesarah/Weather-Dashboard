@@ -1,4 +1,4 @@
-var APIKey = "23e942d86d90cbac1cd7f900775196d1";
+var APIKey = "81c0d22b83ccbe180ccf4acf19f7d978";
 var today = moment().format('DD/MM/YYYY');
 var searchedCityHistoryList = [];
 
