@@ -4,7 +4,14 @@
 This is a weather dashboard with form inputs that will run in the browser and feature dynamically updated HTML and CSS. It allows the user to search to view weather outlook for multiple cities so travelers can plan a trip accordingly. [OpenWeather API](https://openweathermap.org/api) is used to retrieve weather data for cities. And localStorage is used to store persistent data.
 
 ## Prerequisites
-N/A
+* API key from OpenWeather.
+* Web browser
+
+## Features
+* Search for current weather conditions by city name.
+* Display a 5-day weather forecast.
+* Save search history and allow users to revisit previous searches.
+* Responsive design for mobile and desktop devices.
 
 # Criteria
 * Create a weather dashboard with form inputs.
@@ -42,7 +49,11 @@ N/A
 N/A
 
 ## Usage
-N/A
+* Open the Weather Dashboard web application in your browser.
+* Enter the name of the city you want to get weather information for in the search input field.
+* Click the "Search" button to display the current weather and the 5-day forecast for the specified city.
+* View the weather details including temperature, humidity, wind speed, and weather conditions.
+* Access previously searched cities from the search history list by clicking on the city name.
 
 ## Project Link
 Application can be viewed here: 
