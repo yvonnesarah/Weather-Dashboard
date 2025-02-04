@@ -1,75 +1,79 @@
 # Weather-Dashboard
 
-## Description
-This is a weather dashboard with form inputs that will run in the browser and feature dynamically updated HTML and CSS. It allows the user to search to view weather outlook for multiple cities so travelers can plan a trip accordingly. [OpenWeather API](https://openweathermap.org/api) is used to retrieve weather data for cities. And localStorage is used to store persistent data.
+## 📌 Description
+The Weather Dashboard is a web application that provides real-time weather information for multiple cities. Users can search for a city and view its current weather conditions along with a 5-day forecast. This helps travelers plan their trips accordingly. The application uses the OpenWeather API to fetch weather data and stores search history in localStorage for quick access to previous searches.
 
-## Prerequisites
-* API key from OpenWeather.
-* Web browser
+## 🛠 Prerequisites
+* An API key from OpenWeather.
+* A web browser to access the application.
 
-## Features
-* Search for current weather conditions by city name.
-* Display a 5-day weather forecast.
-* Save search history and allow users to revisit previous searches.
-* Responsive design for mobile and desktop devices.
+# 📋 Criteria
+* Search for a city to view its current weather conditions.
+* Display a 5-day weather forecast with key weather details.
+* Save search history, allowing users to revisit previous searches.
+* Responsive design, optimized for both mobile and desktop users.
 
-# Criteria
-* Create a weather dashboard with form inputs.
-* When a user searches for a city they are presented with current and future conditions for that city and that city is added to the search history.
+When a user searches for a city:
+* They see current and future weather conditions for that city.
+* The city is saved to search history for easy access.
 
-* When a user views the current weather conditions for that city they are presented with:
-* The city name
-* The date
-* An icon representation of weather conditions
-* The temperature
-* The humidity
-* The wind speed
+The current weather display includes:
+* City name
+* Date
+* Weather icon representing conditions
+* Temperature
+* Humidity
+* Wind speed
 
-* When a user views future weather conditions for that city they are presented with a 5-day forecast that displays:
-* The date
-* An icon representation of weather conditions
-* The temperature
-* The humidity
-* The wind speed
+The 5-day forecast includes:
+* Date
+* Weather icon
+* Temperature
+* Humidity
+* Wind speed
 
-* When a user clicks on a city in the search history they are again presented with current and future conditions for that city.
+Additional functionality:
+* Clicking a city from the search history reloads its current and future weather conditions.
 
-## Technologies Used
- Built with:
+## 💻 Technologies Used
+This project is built using:
 * HTML
 * CSS
 * JavaScript
 * jQuery
 * Moment.js
+* Bootstrap
 * Server-Side API - OpenWeather API
 * Local Storage
-* (Bootstrap)
 
-## Installation
-N/A
+## 🚀 Installation
+No installation required—simply open the application in a web browser.
 
-## Usage
-* Open the Weather Dashboard web application in your browser.
-* Enter the name of the city you want to get weather information for in the search input field.
-* Click the "Search" button to display the current weather and the 5-day forecast for the specified city.
-* View the weather details including temperature, humidity, wind speed, and weather conditions.
-* Access previously searched cities from the search history list by clicking on the city name.
+## 📚 Usage
+1. Open the Weather Dashboard in your web browser.
+2. Enter a city name in the search field.
+3. Click the Search button to retrieve weather data.
+4. View current weather conditions and a 5-day forecast.
+5. Click a city from search history to reload its weather details.
 
-## Project Link
-Application can be viewed here: 
+🔗 Live Demo & Repository
+Application can be viewed here:
 * [Live](https://yvonnesarah.github.io/Weather-Dashboard/)
 
 * [Repository](https://github.com/yvonnesarah/Weather-Dashboard)
 
-## Screenshot(S)
+## 🖼 Screenshot(S)
 Weather Dashboard
 ![Screenshot](assets/images/weather-dashboard.png "Weather Dashboard")
 
 Example City searched
 ![Screenshot](assets/images/city-searched-with-current-and-5-days.png "Example City searched with current and 5 days shown")
 
-## Credit
+## 👥 Credit
 N/A
 
-## Licence
-Please refer to the LICENSE in the repo.
+## 📜 License
+This project is open-source. For licensing details, please refer to the LICENSE file in the repository.
+
+## 📬 Contact
+You can reach me at 📧 yvonneadedeji.sarah@gmail.com.
