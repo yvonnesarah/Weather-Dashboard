@@ -7,7 +7,7 @@ The Weather Dashboard is a web application that provides real-time weather infor
 * An API key from OpenWeather.
 * A web browser to access the application.
 
-# 📋 Criteria
+## 📋 Criteria
 * Search for a city to view its current weather conditions.
 * Display a 5-day weather forecast with key weather details.
 * Save search history, allowing users to revisit previous searches.
@@ -56,7 +56,7 @@ No installation required—simply open the application in a web browser.
 4. View current weather conditions and a 5-day forecast.
 5. Click a city from search history to reload its weather details.
 
-🔗 Live Demo & Repository
+## 🔗 Live Demo & Repository
 Application can be viewed here:
 * [Live](https://yvonnesarah.github.io/Weather-Dashboard/)
 
