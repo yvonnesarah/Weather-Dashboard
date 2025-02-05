@@ -3,28 +3,28 @@
 
 <head>
 <meta charset="UTF-8" />
-  <!--Added meta viewport for mobile and monitor accessibility-->
+  <!-- Added meta viewport for mobile and monitor accessibility to ensure the layout is responsive -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<!-- Bootstrap CSS -->
+<!-- Bootstrap CSS for styling the layout and components -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-<!-- Link to fontawesome -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
- crossorigin="anonymous" />
-  <!--CSS Stylesheet-->
+<!-- Link to fontawesome for adding icons -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <!-- Custom CSS stylesheet for additional styling -->
 <link rel="stylesheet" href="./assets/css/styles.css" />
 <title>Weather Dashboard</title>
 </head>
 
 <body>
-      <!--Header-->
+      <!-- Header section of the page, with a dark background and white text -->
 <header class="container-fluid text-center text-white bg-dark p-2 weather-header">
 <h1>Weather Dashboard</h1>
 </header>
 
 <div class="row">
 <div class="col-3 bg-light pb-2 pt-3" id="searchResults">
+  <!-- Search Results Section -->
 <div class="row">
 <div class="col-12">
 <br>
@@ -35,6 +35,7 @@
 
 <div class="row">
 <div class="col-12">
+  <!-- Input field for city name and search button -->
 <div class="input-group">
 <input class="form-control" type="text" id="enterACity" placeholder="Enter City"><button type="button" id="search-Button" class="btn btn-primary"><i class="fas fa-search"></i></button>
 </div>
@@ -43,20 +44,21 @@
 
 <div class="row mt-3">
 <div class="col-12">
+  <!-- List of previously searched cities -->
 <ul id="searchedCityHistory" class="list-group">
-<!-- showing the cities that have been searched -->
+<!-- Cities that have been searched will be shown here -->
 </ul>
  </div>
 </div>
 </div>
 
 <div id="weather" class="col-9 pb-4 pt-4">
+  <!-- Weather information section -->
 <div class="row pb-3 mr-2 ml-2">
 <div id="cityDetails" class="col-12 border rounded px-3 py-3">
-<!-- showing current City -->
+  <!-- Current city weather details will be shown here -->
 </div>
 </div>
-
 
 <div class="row pb-2 pt-1">
 <div class="col-12 ml-2">
@@ -65,17 +67,18 @@
 </div>
 
 <div id="CityfiveDays" class="row pl-2">
-<!-- showing 5 day forecast infomation -->
+  <!-- 5-day weather forecast will be displayed here -->
+</div>
 </div>
 </div>
 </div>
 </div>
 
-<!-- Moment.js -->
+<!-- Moment.js library for handling dates and times -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-<!-- jQuery -->
+<!-- jQuery library for DOM manipulation and AJAX requests -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!--JavaScript-->
+  <!-- Custom JavaScript for the functionality of the weather dashboard -->
 <script src="./assets/js/script.js"></script>
 </body>
 </html>

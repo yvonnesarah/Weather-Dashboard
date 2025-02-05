@@ -1,48 +1,55 @@
+/* Initially hides the weather section */
 #weather {
     display: none;
 }
 
+/* Sets the color of city details and list items */
 #cityDetails,
 li {
     color: #4D4F53!important;
 }
 
+/* Sets the background color for search results, city details, and card elements */
 #searchResults,
 #cityDetails,
 .card {
     background-color: #7F00FF!important;
 }
 
+/* Styles the 5-day forecast card with a border and blue background */
 #CityfiveDays .card {
-    border: 3px solid white!important;
-    background-color: #0000FF!important;
+    border: 3px solid white!important; /* White border around forecast cards */
+    background-color: #0000FF!important; /* Blue background for forecast cards */
 }
 
-
+/* Sets the height of the search results section to fill the viewport */
 #searchResults {
     height: 100vh;
 }
 
+/* Styles for the list items in the searched city history section */
 #searchedCityHistory li {
-    background-color: #97A6A4;
-    color: #f8f8ff!important;
+    background-color: #97A6A4; /* Grayish background for each item */
+    color: #f8f8ff!important; /* White text color */
 }
 
+/* Sets the color of all paragraphs to white */
 p {
     color: #FFFFFF;
 }
 
+/* Sets the font for h2 elements */
 h2 {
     font-family: 'Raleway', sans-serif;
 }
 
+/* Sets the color of h2 and h3 headings to a light color */
 h2,h3 {
     color: #f8f8ff;
 }
 
+/* Defines the font for the entire page and sets a black background */
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #000000;
+    font-family: 'Open Sans', sans-serif; /* Uses 'Open Sans' font for body text */
+    background-color: #000000; /* Sets the background color of the page to black */
 }
-
-
